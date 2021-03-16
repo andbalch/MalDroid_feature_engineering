@@ -4,3 +4,6 @@ banking/
 benign/
 riskware/
 sms/
+token_extraction/csvs/class.csv
+token_extraction/csvs/type.csv
+token_extraction/csvs/sysname.csv
