@@ -1,0 +1,34 @@
+{
+    0: (None, ['[UNK]'])
+    1: (None, ['[SOA]']),
+    2: (None, ['[EOA]']),
+    3: (None, ['[SOB]']),
+    4: (None, ['[EOB]']),
+    5: ('\{', ['{']),
+    6: ('\}', ['}']),
+    7: ('[}\]"],', [',']),
+    8: ('[', ['[']),
+    9: (']', [']']),
+    
+    10: ('"class": "SYSCALL"', ['"class": "SYSCALL"']),
+    11: ('"class": "BINDER"', ['"class": "BINDER"']),
+    12: ('"class": "FS ACCESS(?:\(\)"|")|"class": "FS ACCESS\(', ['"class": "FS ACCESS",', '"class": "FS ACCESS(', '"class": "FS ACCESS()"']),
+    13: ('"class": "FS PIPE ACCESS(?:\(\)"|")|"class": "FS PIPE ACCESS\(', ['"class": "FS PIPE ACCESS",', '"class": "FS PIPE ACCESS(', '"class": "FS PIPE ACCESS()"']),
+    14: ('"class": "NETWORK ACCESS(?:\(\)"|")|"class": "NETWORK ACCESS\(', ['"class": "NETWORK ACCESS",', '"class": "NETWORK ACCESS(', '"class": "NETWORK ACCESS()"']),
+    15: ('READ(?:\)"|,\s\)")|READ,\s', ['READ, )"', 'READ, ', 'READ)"']),
+    16: ('WRITE(?:\)"|,\s\)")|WRITE,\s', ['WRITE, )"', 'WRITE, ', 'WRITE)"']),
+    17: ('CREATE(?:\)"|,\s\)")|CREATE,\s', ['CREATE, )"', 'CREATE, ', 'CREATE)"']),
+    18: ('APPEND(?:\)"|,\s\)")|APPEND,\s', ['APPEND, )"', 'APPEND, ', 'APPEND)"']),
+    19: ('"class": "ACCESS PERSONAL INFO"', ['"class": "ACCESS PERSONAL INFO"']),
+    20: ('"class": "CREATE_THREAD"', ['"class": "CREATE_THREAD"']),
+    21: ('"class": "DEVICE_ACCESS"', ['"class": "DEVICE_ACCESS"']),
+    22: ('"class": "TERMINATE_THREAD"', ['"class": "TERMINATE_THREAD"']),
+    23: ('"class": "CREATE_FOLDER"', ['"class": "CREATE_FOLDER"']),
+    24: ('"class": "EXECUTE"', ['"class": "EXECUTE"']),
+    25: ('"class": "CREATE_PROCESS`"', ['"class": "CREATE_PROCESS`"']),
+    26: ('"class": "TERMINATE_PROCESS"', ['"class": "TERMINATE_PROCESS"']),
+    27: ('"class": "SMS SEND"', ['"class": "SMS SEND"']),
+    28: ('"class": "ANTI_DEBUG"', ['"class": "ANTI_DEBUG"']),
+
+    29: 
+}
