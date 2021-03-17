@@ -12,9 +12,9 @@
     
     10: ('"class": "SYSCALL"', ['"class": "SYSCALL"']),
     11: ('"class": "BINDER"', ['"class": "BINDER"']),
-    12: ('"class": "FS ACCESS(?:\(\)"|")|"class": "FS ACCESS\(', ['"class": "FS ACCESS",', '"class": "FS ACCESS(', '"class": "FS ACCESS()"']),
-    13: ('"class": "FS PIPE ACCESS(?:\(\)"|")|"class": "FS PIPE ACCESS\(', ['"class": "FS PIPE ACCESS",', '"class": "FS PIPE ACCESS(', '"class": "FS PIPE ACCESS()"']),
-    14: ('"class": "NETWORK ACCESS(?:\(\)"|")|"class": "NETWORK ACCESS\(', ['"class": "NETWORK ACCESS",', '"class": "NETWORK ACCESS(', '"class": "NETWORK ACCESS()"']),
+    12: ('"class": "FS ACCESS(?:\(\)"|")|"class": "FS ACCESS\(', ['"class": "FS ACCESS"', '"class": "FS ACCESS(', '"class": "FS ACCESS()"']),
+    13: ('"class": "FS PIPE ACCESS(?:\(\)"|")|"class": "FS PIPE ACCESS\(', ['"class": "FS PIPE ACCESS"', '"class": "FS PIPE ACCESS(', '"class": "FS PIPE ACCESS()"']),
+    14: ('"class": "NETWORK ACCESS(?:\(\)"|")|"class": "NETWORK ACCESS\(', ['"class": "NETWORK ACCESS"', '"class": "NETWORK ACCESS(', '"class": "NETWORK ACCESS()"']),
     15: ('READ(?:\)"|,\s\)")|READ,\s', ['READ, )"', 'READ, ', 'READ)"']),
     16: ('WRITE(?:\)"|,\s\)")|WRITE,\s', ['WRITE, )"', 'WRITE, ', 'WRITE)"']),
     17: ('CREATE(?:\)"|,\s\)")|CREATE,\s', ['CREATE, )"', 'CREATE, ', 'CREATE)"']),
