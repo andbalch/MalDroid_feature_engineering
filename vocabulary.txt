@@ -235,4 +235,27 @@
     227: ('"method": "getComponentEnabledSetting"', ['"method": "getComponentEnabledSetting"']),
     228: ('"method": "cancelAllNotifications"', ['"method": "cancelAllNotifications"']),
     229: ('"method": "getFromLocation"', ['"method": "getFromLocation"']),
+
+    230: ('"operationFlags": 1', ['"operationFlags": 1']),
+    231: ('"operationFlags": 0', ['"operationFlags": 0']),
+    232: ('"operationFlags": 256', ['"operationFlags": 256']),
+    234: ('"operationFlags": 4', ['"operationFlags": 4']),
+    235: ('"operationFlags": 2', ['"operationFlags": 2']),
+    236: ('"operationFlags": 3', ['"operationFlags": 3']),
+    237: ('"operationFlags": 262', ['"operationFlags": 262']),
+    238: ('"operationFlags": 6', ['"operationFlags": 6']),
+    239: ('"operationFlags": 2048', ['"operationFlags": 2048']),
+    240: ('"operationFlags": 8', ['"operationFlags": 8']),
+    241: ('"operationFlags": 2051', ['"operationFlags": 2051']),
+    242: ('"operationFlags": 2049', ['"operationFlags": 2049']),
+    243: ('"operationFlags": 257', ['"operationFlags": 257']),
+    244: ('"operationFlags": 7', ['"operationFlags": 7']),
+    245: ('"operationFlags": 38', ['"operationFlags": 38']),
+    246: ('"operationFlags": 2305', ['"operationFlags": 2305']),
+    247: ('"operationFlags": 5', ['"operationFlags": 5']),
+    248: ('"operationFlags": 258', ['"operationFlags": 258']),
+    250: ('"operationFlags": 2050', ['"operationFlags": 2050']),
+    251: ('"operationFlags": 36', ['"operationFlags": 36']),
+
+    252: 
 }
