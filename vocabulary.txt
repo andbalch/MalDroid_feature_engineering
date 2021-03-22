@@ -1,5 +1,5 @@
 {
-    0: (None, ['[UNK]'])
+    0: (None, ['[UNK]']),
     1: (None, ['[SOA]']),
     2: (None, ['[EOA]']),
     3: (None, ['[SOB]']),
@@ -53,7 +53,7 @@
     48: ('\.content\.IContentService"', ['.content.IContentService"']),
     49 :('\.hardware\.display\.IDisplayManager"', ['.hardware.display.IDisplayManager"']),
     50: ('\.hardware\.input\.IInputManager"', ['.hardware.input.IInputManager"']),
-    51: ('\.hardware\.ICamera(?:Service"|")', ['.hardware.ICameraService"', '.hardware.ICamera"]),
+    51: ('\.hardware\.ICamera(?:Service"|")', ['.hardware.ICameraService"', '.hardware.ICamera"']),
     52: ('\.view\.IWindowSession"', ['.view.IWindowSession"']),
     53: ('\.view\.accessibility\.IAccessibilityManager"', ['.view.accessibility.IAccessibilityManager"']),
     54: ('\.view\.IWindowManager"', ['.view.IWindowManager"']),
@@ -72,7 +72,7 @@
     67: ('\.app\.IWallpaperManager"', ['.app.IWallpaperManager"']),
     68: ('\.app\.IUiModeManager"', ['.app.IUiModeManager"']),
     69: ('\.app\.ISearchManager"', ['.app.ISearchManager"']),
-    70: ('\.textservice\.ITextServicesManager"', ['.textservice.ITextServicesManager"'])
+    70: ('\.textservice\.ITextServicesManager"', ['.textservice.ITextServicesManager"']),
     71: ('\.media\.IAudioService"', ['.media.IAudioService"']),
     72: ('\.location\.ILocationManager"', ['.location.ILocationManager"']),
     73: ('\.statusbar\.IStatusBarService"', ['.statusbar.IStatusBarService"']),
@@ -585,8 +585,8 @@
     574: ('"subclass": "SHELL"', ['"subclass": "SHELL"']),
     575: ('"subclass": "ACCOUNT"', ['"subclass": "ACCOUNT"']),
 
-    576: ('"type": "SYSCALL"', ['"type": "SYSCALL"]),
-    577: ('"type": "BINDER"', ['"type": "BINDER"]),
+    576: ('"type": "SYSCALL"', ['"type": "SYSCALL"']),
+    577: ('"type": "BINDER"', ['"type": "BINDER"']),
 
     578: ('"sysname": "clock_gettime"', ['"sysname": "clock_gettime"']),
     579: ('"sysname": "ioctl"', ['"sysname": "ioctl"']),
