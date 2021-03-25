@@ -1,0 +1,22786 @@
+{
+{
+{
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+]
+, 
+, 
+{
+, 
+, 
+}
+, 
+{
+, 
+, 
+, 
+, 
+}
+, 
+{
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+}
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+]
+, 
+, 
+, 
+, 
+, 
+{
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+}
+, 
+, 
+, 
+}
+, 
+{
+[
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 6
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+CREATE, 
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setgroups32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setresgid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 4
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+CREATE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 3
+, 
+"operationFlags": 4
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "mkdir"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_FOLDER"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mkdir"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 6
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+CREATE, 
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setresuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "uname"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "capset"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "access"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 0
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 1
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+READ)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 1
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+READ)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 1
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+READ)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "writev"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setrlimit"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaction"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 8
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "fork"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clone"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "__arm_nr_set_tls"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 8
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "fork"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clone"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "__arm_nr_set_tls"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 8
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "fork"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clone"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "__arm_nr_set_tls"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 8
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "fork"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clone"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 1
+, 
+"operationFlags": 2
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "socket"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "connect"
+, 
+, 
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "sendto"
+, 
+, 
+, 
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "NETWORK ACCESS(
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "socket"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "pipe"
+, 
+, 
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+"read fd": 36
+}
+, 
+{
+"sysname": "pipe"
+, 
+, 
+"write fd": 37
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS PIPE ACCESS"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pipe"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "connect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+, 
+, 
+}
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getsockopt"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sendto"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+{
+, 
+, 
+}
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "__arm_nr_set_tls"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 8
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "fork"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clone"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "__arm_nr_set_tls"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+}
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 8
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "fork"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clone"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "__arm_nr_set_tls"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getsockopt"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getsockopt"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 256
+, 
+"procname": "zygote"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "DEVICE_ACCESS"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fcntl64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 1
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+READ)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 8
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "fork"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clone"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "writev"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "__arm_nr_set_tls"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 8
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "fork"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clone"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "__arm_nr_set_tls"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "<pre-initialized>"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "<pre-initialized>"
+, 
+"low": 
+[
+{
+"sysname": "pipe"
+, 
+, 
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+"read fd": 32
+}
+, 
+{
+"sysname": "pipe"
+, 
+, 
+"write fd": 38
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+[
+]
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS PIPE ACCESS(
+READ, 
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pipe"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fcntl64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fcntl64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_create"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_ctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettimeofday"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "getDisplayInfo"
+, 
+, 
+"low": 
+[
+{
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.hardware.display.IDisplayManager"
+, 
+"class": "BINDER"
+, 
+[
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "registerCallback"
+, 
+, 
+"low": 
+[
+{
+[
+]
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.hardware.display.IDisplayManager"
+, 
+"class": "BINDER"
+, 
+[
+[
+]
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "getDisplayInfo"
+, 
+, 
+"low": 
+[
+{
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.hardware.display.IDisplayManager"
+, 
+"class": "BINDER"
+, 
+[
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 0
+, 
+"procname": "<pre-initialized>"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getdents64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getdents64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "getDisplayInfo"
+, 
+, 
+"low": 
+[
+{
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.hardware.display.IDisplayManager"
+, 
+"class": "BINDER"
+, 
+[
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "getDisplayInfo"
+, 
+, 
+"low": 
+[
+{
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.hardware.display.IDisplayManager"
+, 
+"class": "BINDER"
+, 
+[
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettimeofday"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "access"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 1
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+READ)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "_llseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "_llseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "_llseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+]
+[
+[
+{
+[
+{
+}
+]
+[
+{
+]
+[
+{
+}
+[
+]
+{
+]
+{
+{
+{
+]
+}
+}
+]
+}
+[
+{
+[
+{
+[
+{
+}
+{
+}
+{
+}
+{
+}
+}
+{
+{
+}
+[
+[
+{
+}
+[
+{
+}
+]
+}
+]
+}
+[
+]
+[
+{
+[
+[
+[
+}
+]
+{
+[
+]
+}
+[
+{
+[
+{
+}
+{
+]
+]
+}
+[
+{
+{
+{
+}
+{
+}
+[
+[
+}
+[
+[
+[
+]
+]
+]
+]
+]
+}
+}
+}
+{
+]
+}
+[
+[
+{
+[
+[
+{
+]
+]
+}
+{
+}
+]
+}
+{
+]
+{
+]
+[
+{
+}
+}
+}
+}
+{
+{
+{
+]
+}
+}
+}
+[
+}
+}
+}
+[
+]
+}
+}
+[
+]
+}
+]
+[
+{
+]
+[
+[
+{
+}
+{
+}
+]
+{
+}
+}
+}
+}
+{
+]
+}
+[
+{
+{
+[
+{
+}
+]
+]
+[
+[
+]
+{
+{
+]
+[
+]
+[
+{
+]
+{
+}
+]
+{
+{
+]
+[
+{
+[
+{
+]
+[
+{
+{
+{
+}
+{
+]
+{
+]
+}
+[
+{
+{
+[
+{
+]
+{
+{
+[
+{
+}
+[
+{
+[
+{
+]
+]
+}
+{
+]
+]
+[
+[
+]
+}
+]
+}
+[
+[
+}
+]
+]
+}
+[
+[
+{
+[
+[
+}
+[
+{
+{
+{
+]
+}
+]
+]
+]
+]
+{
+{
+}
+]
+]
+{
+]
+}
+[
+[
+{
+}
+{
+{
+]
+{
+{
+]
+{
+}
+]
+[
+]
+[
+{
+]
+{
+{
+[
+]
+]
+{
+]
+{
+]
+}
+[
+{
+[
+}
+[
+]
+]
+[
+[
+{
+]
+[
+}
+[
+[
+{
+}
+{
+]
+{
+[
+}
+]
+]
+{
+{
+}
+}
+{
+{
+}
+}
+{
+}
+{
+{
+[
+{
+{
+]
+]
+}
+]
+}
+}
+}
+[
+]
+{
+}
+{
+]
+}
+{
+}
+]
+]
+}
+]
+]
+{
+{
+[
+}
+}
+[
+{
+}
+{
+[
+{
+[
+}
+}
+]
+{
+]
+{
+]
+]
+[
+[
+{
+[
+{
+}
+]
+[
+{
+]
+[
+{
+}
+[
+]
+}
+}
+]
+[
+{
+{
+{
+]
+[
+{
+{
+{
+[
+[
+]
+]
+]
+{
+]
+}
+]
+]
+[
+{
+}
+}
+{
+{
+}
+]
+}
+[
+{
+]
+}
+]
+{
+}
+[
+{
+{
+{
+]
+{
+{
+}
+]
+[
+[
+[
+[
+{
+[
+]
+}
+]
+[
+}
+}
+}
+}
+[
+]
+]
+[
+[
+[
+{
+{
+[
+{
+[
+{
+}
+}
+[
+[
+{
+}
+}
+]
+}
+[
+[
+}
+]
+]
+{
+[
+[
+{
+{
+]
+}
+[
+]
+}
+[
+}
+}
+{
+]
+{
+}
+}
+}
+}
+{
+[
+[
+{
+[
+{
+[
+}
+[
+{
+[
+]
+}
+{
+[
+]
+{
+{
+]
+[
+[
+}
+]
+{
+]
+[
+[
+}
+]
+]
+{
+[
+}
+[
+}
+]
+[
+[
+{
+}
+{
+{
+{
+}
+{
+]
+[
+]
+]
+]
+[
+}
+}
+}
+[
+[
+{
+[
+}
+}
+[
+{
+}
+{
+{
+{
+[
+}
+}
+]
+{
+}
+}
+}
+]
+}
+]
+[
+[
+}
+[
+}
+]
+]
+{
+}
+}
+]
+[
+]
+}
+{
+{
+{
+}
+]
+]
+}
+}
+[
+{
+}
+]
+{
+]
+{
+}
+]
+]
+}
+}
+}
+]
+}
+[
+}
+[
+}
+}
+]
+[
+]
+}
+[
+{
+}
+}
+]
+]
+{
+[
+[
+}
+[
+{
+]
+}
+]
+{
+]
+[
+[
+}
+}
+}
+}
+]
+[
+[
+}
+{
+]
+]
+{
+]
+]
+]
+}
+]
+{
+{
+[
+{
+]
+{
+{
+[
+[
+{
+}
+{
+[
+[
+[
+]
+}
+]
+[
+]
+[
+{
+{
+{
+}
+}
+]
+}
+[
+}
+]
+[
+]
+}
+]
+}
+[
+}
+[
+[
+{
+[
+{
+]
+[
+}
+[
+}
+{
+[
+}
+[
+{
+}
+[
+}
+]
+{
+[
+}
+{
+]
+]
+]
+]
+{
+}
+}
+{
+]
+[
+]
+{
+}
+{
+{
+[
+}
+}
+}
+{
+[
+]
+]
+[
+]
+}
+]
+]
+]
+{
+]
+}
+]
+]
+]
+]
+[
+[
+[
+}
+{
+[
+]
+]
+]
+]
+[
+]
+]
+]
+[
+{
+{
+}
+}
+}
+]
+[
+}
+[
+[
+}
+{
+]
+{
+{
+{
+{
+}
+]
+[
+[
+[
+]
+{
+[
+[
+{
+]
+]
+}
+]
+{
+{
+{
+[
+]
+]
+}
+}
+{
+}
+[
+}
+{
+{
+]
+]
+[
+[
+]
+]
+}
+]
+, 
+{
+{
+]
+}
+}
+]
+]
+}
+[
+}
+[
+]
+]
+{
+]
+[
+[
+[
+[
+]
+{
+}
+]
+{
+}
+{
+]
+}
+}
+]
+{
+}
+[
+}
+[
+{
+[
+}
+}
+}
+]
+[
+}
+[
+{
+[
+[
+]
+]
+]
+]
+{
+[
+]
+]
+}
+]
+{
+]
+{
+[
+[
+[
+[
+{
+[
+[
+[
+{
+{
+}
+]
+]
+{
+}
+]
+{
+]
+]
+]
+}
+}
+{
+{
+{
+}
+[
+{
+[
+{
+]
+[
+]
+{
+[
+]
+{
+]
+[
+{
+{
+{
+]
+{
+[
+]
+]
+]
+[
+]
+]
+}
+}
+[
+]
+}
+}
+[
+}
+{
+{
+}
+]
+{
+]
+]
+}
+}
+{
+{
+}
+[
+[
+[
+}
+}
+{
+}
+{
+[
+]
+}
+]
+{
+[
+[
+{
+[
+{
+]
+}
+[
+}
+{
+]
+[
+{
+{
+{
+]
+[
+}
+}
+[
+}
+]
+{
+}
+{
+{
+{
+{
+]
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "access"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 3
+, 
+"operationFlags": 4
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "mkdir"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_FOLDER"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mkdir"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "chmod"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "getPackagesForUid"
+, 
+, 
+"low": 
+[
+{
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.content.pm.IPackageManager"
+, 
+"class": "BINDER"
+, 
+[
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 1
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+READ)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+}
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+}
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "getProxy"
+, 
+, 
+"low": 
+[
+{
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.net.IConnectivityManager"
+, 
+"class": "BINDER"
+, 
+[
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+[
+]
+[
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+[
+[
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 1
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+READ)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "_llseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "_llseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "_llseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+]
+[
+[
+{
+[
+{
+}
+]
+[
+{
+]
+[
+{
+}
+[
+]
+{
+]
+{
+{
+{
+]
+}
+}
+]
+}
+[
+{
+[
+{
+[
+{
+}
+{
+}
+{
+}
+{
+}
+}
+{
+{
+}
+[
+[
+{
+}
+[
+{
+}
+]
+}
+]
+}
+[
+]
+[
+{
+[
+[
+[
+}
+]
+{
+[
+]
+}
+[
+{
+[
+{
+}
+{
+]
+]
+}
+[
+{
+{
+{
+}
+{
+}
+[
+[
+}
+[
+[
+[
+]
+]
+]
+]
+]
+}
+}
+}
+{
+]
+}
+[
+[
+{
+[
+[
+{
+]
+]
+}
+{
+}
+]
+}
+{
+]
+{
+]
+[
+{
+}
+}
+}
+}
+{
+{
+{
+]
+}
+}
+}
+[
+}
+}
+}
+[
+]
+}
+}
+[
+]
+}
+]
+[
+{
+]
+[
+[
+{
+}
+{
+}
+]
+{
+}
+}
+}
+}
+{
+]
+}
+[
+{
+{
+[
+{
+}
+]
+]
+[
+[
+]
+{
+{
+]
+[
+]
+[
+{
+]
+{
+}
+]
+{
+{
+]
+[
+{
+[
+{
+]
+[
+{
+{
+{
+}
+{
+]
+{
+]
+}
+[
+{
+{
+[
+{
+]
+{
+{
+[
+{
+}
+[
+{
+[
+{
+]
+]
+}
+{
+]
+]
+[
+[
+]
+}
+]
+}
+[
+[
+}
+]
+]
+}
+[
+[
+{
+[
+[
+}
+[
+{
+{
+{
+]
+}
+]
+]
+]
+]
+{
+{
+}
+]
+]
+{
+]
+}
+[
+[
+{
+}
+{
+{
+]
+{
+{
+]
+{
+}
+]
+[
+]
+[
+{
+]
+{
+{
+[
+]
+]
+{
+]
+{
+]
+}
+[
+{
+[
+}
+[
+]
+]
+[
+[
+{
+]
+[
+}
+[
+[
+{
+}
+{
+]
+{
+[
+}
+]
+]
+{
+{
+}
+}
+{
+{
+}
+}
+{
+}
+{
+{
+[
+{
+{
+]
+]
+}
+]
+}
+}
+}
+[
+]
+{
+}
+{
+]
+}
+{
+}
+]
+]
+}
+]
+]
+{
+{
+[
+}
+}
+[
+{
+}
+{
+[
+{
+[
+}
+}
+]
+{
+]
+{
+]
+]
+[
+[
+{
+[
+{
+}
+]
+[
+{
+]
+[
+{
+}
+[
+]
+}
+}
+]
+[
+{
+{
+{
+]
+[
+{
+{
+{
+[
+[
+]
+]
+]
+{
+]
+}
+]
+]
+[
+{
+}
+}
+{
+{
+}
+]
+}
+[
+{
+]
+}
+]
+{
+}
+[
+{
+{
+{
+]
+{
+{
+}
+]
+[
+[
+[
+[
+{
+[
+]
+}
+]
+[
+}
+}
+}
+}
+[
+]
+]
+[
+[
+[
+{
+{
+[
+{
+[
+{
+}
+}
+[
+[
+{
+}
+}
+]
+}
+[
+[
+}
+]
+]
+{
+[
+[
+{
+{
+]
+}
+[
+]
+}
+[
+}
+}
+{
+]
+{
+}
+}
+}
+}
+{
+[
+[
+{
+[
+{
+[
+}
+[
+{
+[
+]
+}
+{
+[
+]
+{
+{
+]
+[
+[
+}
+]
+{
+]
+[
+[
+}
+]
+]
+{
+[
+}
+[
+}
+]
+[
+[
+{
+}
+{
+{
+{
+}
+{
+]
+[
+]
+]
+]
+[
+}
+}
+}
+[
+[
+{
+[
+}
+}
+[
+{
+}
+{
+{
+{
+[
+}
+}
+]
+{
+}
+}
+}
+]
+}
+]
+[
+[
+}
+[
+}
+]
+]
+{
+}
+}
+]
+[
+]
+}
+{
+{
+{
+}
+]
+]
+}
+}
+[
+{
+}
+]
+{
+]
+{
+}
+]
+]
+}
+}
+}
+]
+}
+[
+}
+[
+}
+}
+]
+[
+]
+}
+[
+{
+}
+}
+]
+]
+{
+[
+[
+}
+[
+{
+]
+}
+]
+{
+]
+[
+[
+}
+}
+}
+}
+]
+[
+[
+}
+{
+]
+]
+{
+]
+]
+]
+}
+]
+{
+{
+[
+{
+]
+{
+{
+[
+[
+{
+}
+{
+[
+[
+[
+]
+}
+]
+[
+]
+[
+{
+{
+{
+}
+}
+]
+}
+[
+}
+]
+[
+]
+}
+]
+}
+[
+}
+[
+[
+{
+[
+{
+]
+[
+}
+[
+}
+{
+[
+}
+[
+{
+}
+[
+}
+]
+{
+[
+}
+{
+]
+]
+]
+]
+{
+}
+}
+{
+]
+[
+]
+{
+}
+{
+{
+[
+}
+}
+}
+{
+[
+]
+]
+[
+]
+}
+]
+]
+]
+{
+]
+}
+]
+]
+]
+]
+[
+[
+[
+}
+{
+[
+]
+]
+]
+]
+[
+]
+]
+]
+[
+{
+{
+}
+}
+}
+]
+[
+}
+[
+[
+}
+{
+]
+{
+{
+{
+{
+}
+]
+[
+[
+[
+]
+{
+[
+[
+{
+]
+]
+}
+]
+{
+{
+{
+[
+]
+]
+}
+}
+{
+}
+[
+}
+{
+{
+]
+]
+[
+[
+]
+]
+}
+]
+, 
+{
+{
+]
+}
+}
+]
+]
+}
+[
+}
+[
+]
+]
+{
+]
+[
+[
+[
+[
+]
+{
+}
+]
+{
+}
+{
+]
+}
+}
+]
+{
+}
+[
+}
+[
+{
+[
+}
+}
+}
+]
+[
+}
+[
+{
+[
+[
+]
+]
+]
+]
+{
+[
+]
+]
+}
+]
+{
+]
+{
+[
+[
+[
+[
+{
+[
+[
+[
+{
+{
+}
+]
+]
+{
+}
+]
+{
+]
+]
+]
+}
+}
+{
+{
+{
+}
+[
+{
+[
+{
+]
+[
+]
+{
+[
+]
+{
+]
+[
+{
+{
+{
+]
+{
+[
+]
+]
+]
+[
+]
+]
+}
+}
+[
+]
+}
+}
+[
+}
+{
+{
+}
+]
+{
+]
+]
+}
+}
+{
+{
+}
+[
+[
+[
+}
+}
+{
+}
+{
+[
+]
+}
+]
+{
+[
+[
+{
+[
+{
+]
+}
+[
+}
+{
+]
+[
+{
+{
+{
+]
+[
+}
+}
+[
+}
+]
+{
+}
+{
+{
+{
+{
+]
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fcntl64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fcntl64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 0
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 4
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+CREATE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 1
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "read"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+READ)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "flock"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lseek"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 256
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "DEVICE_ACCESS"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "flock"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+[
+[
+[
+[
+[
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+[
+[
+[
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+[
+[
+[
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "getPackageInfo"
+, 
+, 
+"low": 
+[
+{
+, 
+, 
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.content.pm.IPackageManager"
+, 
+"class": "BINDER"
+, 
+[
+, 
+, 
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettimeofday"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettimeofday"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "getDisplayInfo"
+, 
+, 
+"low": 
+[
+{
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.hardware.display.IDisplayManager"
+, 
+"class": "BINDER"
+, 
+[
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "getDisplayInfo"
+, 
+, 
+"low": 
+[
+{
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.hardware.display.IDisplayManager"
+, 
+"class": "BINDER"
+, 
+[
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "hasNavigationBar"
+, 
+, 
+"low": 
+[
+{
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.view.IWindowManager"
+, 
+"class": "BINDER"
+, 
+[
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"method": "addClient"
+, 
+, 
+"low": 
+[
+{
+[
+]
+, 
+, 
+"type": "BINDER"
+, 
+, 
+}
+]
+, 
+"interface": "android
+.view.accessibility.IAccessibilityManager"
+, 
+"class": "BINDER"
+, 
+[
+[
+]
+, 
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+{
+]
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+}
+]
+]
+]
+, 
+}
+}
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+, 
+}
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+}
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+, 
+}
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+, 
+}
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "nanosleep"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+, 
+}
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+, 
+}
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "writev"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+}
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+{
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+}
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+]
+]
+]
+]
+, 
+}
+]
+]
+]
+]
+]
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 8
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "fork"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clone"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "__arm_nr_set_tls"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "prctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "gettid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "setpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "access"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "access"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "access"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 4
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+CREATE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 3
+, 
+"operationFlags": 4
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "mkdir"
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "CREATE_FOLDER"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mkdir"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "chmod"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+CREATE, 
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigaltstack"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sigprocmask"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 1
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "exit"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "TERMINATE_THREAD"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "exit"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fsync"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "chmod"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "access"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "access"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "rename"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 2
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+{
+, 
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+, 
+{
+"sysname": "write"
+, 
+, 
+, 
+{
+, 
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "ioctl"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+, 
+{
+"sysname": "close"
+, 
+, 
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS(
+CREATE, 
+WRITE)"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "open"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fsync"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "fstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "close"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "chmod"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "lstat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+]
+, 
+}
+]
+}
+, 
+{
+"classType": 0
+, 
+"operationFlags": 8
+, 
+"procname": "com.software.application"
+, 
+"low": 
+[
+{
+"sysname": "unlink"
+, 
+{
+}
+, 
+"type": "SYSCALL"
+, 
+, 
+}
+]
+, 
+, 
+"class": "FS ACCESS()"
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "unlink"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "pread64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mmap2"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "munmap"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "sched_yield"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "nanosleep"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "madvise"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "brk"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "futex"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "read"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "mprotect"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "stat64"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+}
+}
+}
+{
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "ioctl"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpid"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getuid32"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "epoll_wait"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "clock_gettime"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "getpriority"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+]
+, 
+}
+]
+}
+, 
+{
+"class": "SYSCALL"
+, 
+"low": 
+[
+{
+"sysname": "write"
+, 
+"type": "SYSCALL"
+, 
+, 
+[
+, 
+, 
+]
+, 
+}
+]
+}
+]
+}
+}
+, 
+, 
+, 
+}
